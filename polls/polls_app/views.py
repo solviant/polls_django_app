@@ -8,6 +8,7 @@ from django.views import generic
 
 from .models import Choice, Question
 
+# Yo check this comment
 
 class IndexView(generic.ListView):
     template_name = 'polls_app/index.html'
